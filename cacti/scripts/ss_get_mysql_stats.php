@@ -171,7 +171,7 @@ if ( !function_exists('array_change_key_case') ) {
 # Validate that the command-line options are here and correct
 # ============================================================================
 function validate_options($options) {
-   $opts = array('host', 'items', 'user', 'pass', 'nocache', 'port', 'server-id');
+   $opts = array('host', 'items', 'user', 'pass', 'nocache', 'port', 'server-id', 'socket');
    # Show help
    if ( array_key_exists('help', $options) ) {
       usage('');
